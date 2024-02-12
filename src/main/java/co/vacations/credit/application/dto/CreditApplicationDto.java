@@ -6,7 +6,7 @@ public class CreditApplicationDto {
     private BigDecimal amount;
     private BigDecimal interest;
     private Integer periods;
-    private BigDecimal totalAmount;
+    private BigDecimal monthlyPayment;
 
     public BigDecimal getAmount() {
         return amount;
@@ -32,11 +32,11 @@ public class CreditApplicationDto {
         this.periods = periods;
     }
 
-    public BigDecimal getTotalAmount() {
-        return totalAmount;
+    public BigDecimal getMonthlyPayment() {
+        return monthlyPayment;
     }
 
-    public void setTotalAmount(BigDecimal totalAmount) {
-        this.totalAmount = totalAmount;
+    public void setMonthlyPayment(BigDecimal totalAmount) {
+        this.monthlyPayment = totalAmount;
     }
 }
