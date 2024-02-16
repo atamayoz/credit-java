@@ -1,4 +1,4 @@
-package co.vacations.credit.application.dto;
+package co.vacations.credit.simulation.dto;
 
 import java.math.BigDecimal;
 
